@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+.allBeers > div {
+  display: flex;
+  width: 381px;
+  gap:33px;
+  margin-top:40px;
+  border-bottom:2px solid rgba(51, 51, 51, 0.5);
+  padding-bottom:40px;
+}
+
+.allBeers img {
+  width: 95px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Slab', serif;
+}
+
+.allBeers h2 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.description {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffca41;
+}
+
+.createdby {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
+  margin-top:13px;
+  margin-bottom:19px;
+}
+
+.allBeers a {
+  background: #ffca41;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 111px;
+  height: 31px;
+  text-align: center;
+}
